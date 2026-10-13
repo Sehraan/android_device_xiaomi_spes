@@ -8,6 +8,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/infinity_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_spes-user \
-    lineage_spes-userdebug \
-    lineage_spes-eng
+    infinity_spes-userdebug \
