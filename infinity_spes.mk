@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/spes/device.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/penguin/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
@@ -22,7 +22,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 
 # Product Specifics
-PRODUCT_NAME := penguin_spes
+PRODUCT_NAME := infinity_spes
 PRODUCT_DEVICE := spes
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11
@@ -35,7 +35,7 @@ INFINITY_MAINTAINER := Sehraan
 TARGET_HAS_UDFPS := false
 
 # Whether Including Google Apps
-WITH_GAPPS := false
+WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
