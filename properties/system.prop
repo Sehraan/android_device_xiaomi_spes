@@ -12,7 +12,7 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 ro.bluetooth.wipower=false
 
 # Blur
-ro.launcher.blur.appLaunch=0
+ro.launcher.blur.appLaunch=1
 
 # Camera
 camera.disable_zsl_mode=1
