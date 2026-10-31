@@ -171,7 +171,6 @@ vendor.display.enable_posted_start_dyn=1
 vendor.display.normal_noc_efficiency_factor=0.85
 vendor.display.secure_preview_buffer_format=420_sp
 vendor.display.use_smooth_motion=1
-vendor.display.defer_fps_frame_count=2
 vendor.display.override_doze_mode=1
 
 # IMS
@@ -196,7 +195,6 @@ persist.sys.cnss_diag.enable=false
 persist.sys.tcpdump.enable=false
 persist.vendor.data.iwlan.enable=true
 persist.vendor.radio.add_power_save=1
-persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.data_con_rprt=1
