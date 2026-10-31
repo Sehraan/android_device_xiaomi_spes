@@ -16,7 +16,7 @@ ro.launcher.blur.appLaunch=1
 
 # Camera
 camera.disable_zsl_mode=1
-vendor.camera.aux.packagelist=com.android.camera,app.grapheneos.camera,org.lineageos.aperture,org.lineageos.aperture.dev,org.telegram.messenger,org.telegram.messenger.web
+vendor.camera.aux.packagelist=com.android.camera,app.grapheneos.camera,org.lineageos.aperture,org.lineageos.aperture.dev    
 
 # Charger
 persist.vendor.quick.charge=1
