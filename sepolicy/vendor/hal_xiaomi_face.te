@@ -1,1 +1,0 @@
-allow hal_xiaomi_face sysfs_msm_subsys:dir search;
