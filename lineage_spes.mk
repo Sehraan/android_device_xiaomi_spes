@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/spes/device.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
@@ -28,14 +28,26 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11
 PRODUCT_MANUFACTURER := Xiaomi
 
-# Maintainer Name
-INFINITY_MAINTAINER := Sehraan
+# Lunch banner maintainer variable
+RISING_MAINTAINER=Sehraan
 
-# Whether the device supports Fingerprint On Display
-TARGET_HAS_UDFPS := false
+# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
+# Set RISING_MAINTAINER for version control 
+# (Optional if builder is setting properties via init_<device>.cpp)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset=Snapdragon 680 \
+    RisingMaintainer=Sehraan
 
-# Whether Including Google Apps
-WITH_GAPPS := false
+RISING_MAINTAINER := Sehraan
+
+# Disable/enable blur support, false by default
+TARGET_ENABLE_BLUR := true
+
+# Whether to ship aperture camera, false by default
+PRODUCT_NO_CAMERA := false
+
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
