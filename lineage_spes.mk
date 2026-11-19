@@ -22,7 +22,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 
 # Product Specifics
-PRODUCT_NAME := infinity_spes
+PRODUCT_NAME := lineage_spes
 PRODUCT_DEVICE := spes
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11
